@@ -1,0 +1,78 @@
+/* Write your CSS code here */
+.logo {
+  height: 20px;
+  margin-right: 8px;
+}
+.list-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.logo-name-container {
+  display: flex;
+  align-items: center;
+  width: 80px;
+
+  margin-right: 60px;
+  font-size: 10px;
+}
+.class-name {
+}
+.usd-euro-container {
+  display: flex;
+  align-items: center;
+}
+.usd-num {
+  width: 50px;
+  text-align: right;
+  margin-right: 20px;
+
+  font-size: 10px;
+}
+.euro-num {
+  width: 50px;
+  text-align: right;
+
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 30px;
+    margin-right: 10px;
+  }
+  .list-item {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  .logo-name-container {
+    display: flex;
+    align-items: center;
+    width: 140px;
+
+    margin-right: 110px;
+    font-size: 22px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .class-name {
+  }
+  .usd-euro-container {
+    display: flex;
+    align-items: center;
+  }
+  .usd-num {
+    width: 120px;
+    text-align: right;
+    margin-right: 60px;
+
+    font-size: 22px;
+  }
+  .euro-num {
+    width: 120px;
+    text-align: right;
+
+    font-size: 22px;
+  }
+}

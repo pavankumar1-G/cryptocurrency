@@ -1,0 +1,116 @@
+/* Write your CSS code here */
+.cryptocurrency-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cryptocurrency-heading {
+  color: #00e7ff;
+  font-size: 35px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.image-crypto {
+  width: 300px;
+}
+.cryptocurrency-list-container {
+  border: 5px solid #00e7ff;
+  border-radius: 10px;
+  width: 300px;
+}
+.list-header {
+  background-color: #092e33;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+.usd-euro-container {
+  display: flex;
+}
+.usd {
+  width: 50px;
+  text-align: right;
+  margin-right: 20px;
+}
+.euro {
+  width: 50px;
+  text-align: right;
+}
+.list-coin-type-heading {
+  width: 80px;
+
+  margin-right: 60px;
+}
+.cryptocurrency-list {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 10px;
+  padding-left: 0;
+  padding: 10px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .cryptocurrency-heading {
+    font-size: 60px;
+  }
+  .image-crypto {
+    width: 600px;
+    height: 350px;
+  }
+  .cryptocurrency-list-container {
+    border: 5px solid #00e7ff;
+    border-radius: 10px;
+    width: 650px;
+  }
+  .list-header {
+    background-color: #092e33;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .usd-euro-container {
+    display: flex;
+  }
+  .usd {
+    width: 120px;
+    text-align: right;
+    margin-right: 60px;
+    
+    font-size: 25px;
+  }
+  .euro {
+    width: 120px;
+    text-align: right;
+   
+    font-size: 25px;
+  }
+  .list-coin-type-heading {
+    width: 140px;
+   
+    margin-right: 110px;
+    font-size: 25px;
+  }
+  .cryptocurrency-list {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 10px;
+    padding-left: 0;
+    padding: 20px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
